@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('./background.jpg');
+  min-height: 100%;
+  background-size: cover;
+}
+
+.main{
+  background-image: url('./main.jpg');
+  width: 400px;
+  height: 175px;
+  margin: 200px auto;
+  padding: 30px;
+  border-radius: 2%;
+  position: relative;
+}
+
+.badge{
+  background-color: #e66357;
+  color: white;
+  padding: 3px;
+  width: 90px;
+  text-align: center;
+  border-radius: 5%;
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  top: -30px
+}
+ 
+.clock{
+  background-color: white;
+  text-align: center;
+  font-size: 55px;
+  padding: 20px;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#hours, #minutes, #seconds{
+  width: 90px;
+  display: inline-block;
+}
